@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUDS PRIJECT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="crud"  >
+  <div class="head">
+     <h1>منظومة ادارة منتجات</h1>
+     <p>PRODUCT MANGEMENT SYSTEM</p>
+   </div>
+    <div class="inputs">
+       <input placeholder="اسم المنتج" type="text" id="title">
+       <div class="price">
+         <input onkeyup= gettotal() placeholder="السعر" type="number"   id="price">
+         <input  onkeyup= gettotal() type="number"  placeholder="الضريبة" id="taxes">
+         <input   onkeyup= gettotal() type="number"  placeholder="الدعاية" id="ads">
+         <input  onkeyup= gettotal()  type="number"  placeholder="الخصم" id="discount">
+         <small id="total">85</small>
+        </div>
+        <input type="number"  placeholder="العدد" id="count">
+         <input type="text"  placeholder="النوع" id="category">  
+    <button id="submint">اضافة منتج جديد</button>              
+      
+    </div>
+    <div class="outputs">
+      <div>
+         <input  onkeyup="searshdata(this.value)"  type="text"  placeholder="بحث" id="searsh">
+      <div class="btnsearsh">
+       <button     onclick=getsearshmode(this.id) id="searshTitle"   >بحث عن طريق الاسم</button>
+       <button onclick=getsearshmode(this.id) id="searshCategory"   >بحث عن طريق النوع </button>  
+          
+      </div>          
+          
+      </div>   
+      </div>
+    </div>
+    
+    
+    <div id="DeleteAll"> </div>
+    <table>
+        <tr>     
+          <th>المنتج</th>
+          <th>السعر</th>
+          <!--  
+          <th>الضريبة</th>
+          <th>الدعاية</th>
+          <th>الخصم</th>
+          -->
+            <th>النوع</th>
+          <th>المجموع</th>
+          <th>تعديل</th>
+          <th>حذف</th>
+          </tr>
+          <tbody  id="tbody">
+             
+          </tbody>
+    </table>
+    
+    </div>
+    
+      <script src='CURD.js' > </script> 
+          
+    
+</body>
+</html>

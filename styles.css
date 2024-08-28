@@ -1,0 +1,78 @@
+*{margin: 0px;
+padding: 0px;
+}
+body {
+    background-color: #222;
+   color:#fff;
+   
+}
+.crud{width:90%;
+   margin: auto;}
+   
+.head{text-align:center;
+text-transform:uppercase;
+margin: 10,0px;
+}   
+.inputs input{
+    width:100%;
+    height: 30px;
+    margin:4,0px;
+    background-color:#111;
+    outline:none;
+    border:none;
+    border-radius:4px;
+    padding: 4px;
+    color:#fff;
+}
+input:focus{background:#000;
+transform:scale(1.1);
+
+}
+.price input{width:18% ;} 
+#total{
+   
+    background:#ff1554 ;
+    padding: 5,2px;
+    border-radius:4px ;
+    
+}
+#total::before{content:'Total:'}
+button{
+width: 100%;
+height: 50px;
+border: none;
+cursore:pointer;
+background:#8540ff;
+border-radius:4px;
+color:#fff;
+}
+button:hover{background:#500d9a;
+letter-spacing:1px;
+}
+.outputs button{width: 35%;
+align-item:center} 
+
+.outputs input {width:100%}
+.btnsearsh{display:flex;
+justify-content:space-between
+
+}
+.btnsearsh button{width: 40%;
+margin: 10px 0px;}
+table{width:100% ;
+text-align:center;
+margin: 10px 0px;
+}
+table th{text-transform:uppercase;
+
+
+}
+th, td{padding: 2px;}
+#DeleteAll{margin: 20px  0;}
+
+#searsh{  background-color:#111;
+    outline:none;
+    border:none;
+    border-radius:4px;
+    padding: 4px;
+    color:#fff;}
