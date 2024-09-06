@@ -1,7 +1,7 @@
 {
-  "name": "myapp",
+  "name": "my-node-app",
   "version": "1.0.0",
-  "description": "A simple Node.js app for Render deployment",
+  "description": "مشروع Node.js لعرض جملة ترحيب",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,20 +9,9 @@
   "dependencies": {
     "express": "^4.18.2"
   },
-  "author": "",
-  "license": "ISC"
-}
-
-{
-  "name": "myapp",
-  "version": "1.0.0",
-  "description": "A simple Node.js app",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "engines": {
+    "node": ">=14.0.0"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "pg": "^8.7.1"  // أضف مكتبة pg هنا
-  }
+  "author": "اسمك",
+  "license": "ISC"
 }
