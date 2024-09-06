@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
 
 // تعريف مسار رئيسي
 app.get('/', (req, res) => {
-  res.send('Welcome to the website!');
+  res.send('Welcome to مرحبا بكم في موقعي الاول بواسطة نودي جي اس website!');
 });
 
 // تشغيل الخادم
