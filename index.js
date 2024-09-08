@@ -10,10 +10,10 @@ const port = process.env.PORT || 3000;
 
 // إعدادات قاعدة البيانات
 const pool = new Pool({
-  user: 'postgres_user', // استبدل باسم مستخدم PostgreSQL
-  host: 'localhost',     // أو عنوان الخادم إذا كان السحابي
-  database: 'students_db', // استبدل باسم قاعدة البيانات
-  password: 'password',   // كلمة مرور المستخدم
+  user: 'development', // استبدل باسم مستخدم PostgreSQL
+  host: 'dpg-crdndr5svqrc73f8p3rg-a',     // أو عنوان الخادم إذا كان السحابي
+  database: 'post_db_0gqt', // استبدل باسم قاعدة البيانات
+  password: 'fgSM8W9EL1WBOarBDbhFbE6pcAgnXyTG',   // كلمة مرور المستخدم
   port: 5432,            // منفذ PostgreSQL
 });
 
